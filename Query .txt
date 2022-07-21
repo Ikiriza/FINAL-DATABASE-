@@ -1,0 +1,12 @@
+#Query that shows brand_name, ram, and year of manufacture of customers by joining the computer_brand 
+SELECT brand_name, ram, year_of_manufacture FROM computer_brand JOIN ram WHERE customer.id = computer_name.id;
+#Query to select all customer ages from the database
+SELECT age FROM customer;
+#Query to count all the number of customer ages from the database
+SELECT COUNT (age) FROM customers;
+#Query that shows the number of customer ages that have a dell computer brand
+SELECT COUNT (age) FROM customers WHERE brand_name LIKE %DELL%;
+#Query that shows the customers that have only MAC as their computer brand
+SELECT name FROM customers WHERE brand_name LIKE %MAC%;
+
+

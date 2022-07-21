@@ -1,0 +1,9 @@
+SHORT WRITE UP TEXT ON MY COMPUTER BRANDS SURVEY PROJECT
+A given relational database is created on a certain amount of data collected on people that possess different computer specifications.
+Customers are allowed to enter their details like name, age, contact and address of which a table of customers is created with customer_id as the primary key and different attributes
+Another table of computer brand is created to group the different types of computers according to the given brand_id and name.
+The two tables are then taken part in a join table holding foreign keys that include ram_id that link to the other two tables. 
+
+
+
+
